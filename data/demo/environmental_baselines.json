@@ -1,0 +1,68 @@
+{
+  "dataProvenance": "DEMO",
+  "flood": {
+    "sikkim": {
+      "rainfallIntensityMmHr": 28,
+      "cumulativeRainfallMm24h": 120,
+      "riverLevelM": 4.6,
+      "riverThresholdM": 4.2,
+      "glacialLake": {
+        "available": true,
+        "lakeId": "demo-south-lhonak-watch",
+        "status": "watch",
+        "notes": "Demo watch-list entry — not a live satellite measurement"
+      },
+      "historicalFloodEvents5y": 3
+    },
+    "uttarakhand": {
+      "rainfallIntensityMmHr": 12,
+      "cumulativeRainfallMm24h": 55,
+      "riverLevelM": 3.1,
+      "riverThresholdM": 4.0,
+      "glacialLake": { "available": true, "lakeId": "demo-uttarakhand", "status": "normal" },
+      "historicalFloodEvents5y": 2
+    },
+    "himachal": {
+      "rainfallIntensityMmHr": 8,
+      "cumulativeRainfallMm24h": 40,
+      "riverLevelM": 2.5,
+      "riverThresholdM": 3.8,
+      "glacialLake": { "available": false },
+      "historicalFloodEvents5y": 1
+    },
+    "assam": {
+      "rainfallIntensityMmHr": 22,
+      "cumulativeRainfallMm24h": 95,
+      "riverLevelM": 5.0,
+      "riverThresholdM": 5.5,
+      "glacialLake": { "available": false },
+      "historicalFloodEvents5y": 4
+    }
+  },
+  "heat": {
+    "bengaluru": {
+      "temperatureC": 34,
+      "humidityPct": 58,
+      "heatIndexC": null,
+      "elevatedTempDurationHours": 4
+    },
+    "delhi": {
+      "temperatureC": 41,
+      "humidityPct": 35,
+      "heatIndexC": 42,
+      "elevatedTempDurationHours": 9
+    },
+    "mumbai": {
+      "temperatureC": 36,
+      "humidityPct": 72,
+      "heatIndexC": null,
+      "elevatedTempDurationHours": 6
+    },
+    "chennai": {
+      "temperatureC": 39,
+      "humidityPct": 65,
+      "heatIndexC": null,
+      "elevatedTempDurationHours": 8
+    }
+  }
+}

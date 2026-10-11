@@ -1,0 +1,40 @@
+{
+  "dataProvenance": "DEMO",
+  "flood_glof": {
+    "normal": {
+      "rainfallIntensityMmHr": 5,
+      "cumulativeRainfallMm24h": 25,
+      "riverLevelM": 2.0,
+      "riverThresholdM": 4.5,
+      "glacialLake": { "available": true, "status": "normal" }
+    },
+    "heavy_rain": {
+      "rainfallIntensityMmHr": 48,
+      "cumulativeRainfallMm24h": 200,
+      "riverLevelM": 4.3,
+      "riverThresholdM": 4.2,
+      "glacialLake": { "available": true, "status": "watch" }
+    },
+    "river_rising": {
+      "rainfallIntensityMmHr": 35,
+      "cumulativeRainfallMm24h": 160,
+      "riverLevelM": 5.1,
+      "riverThresholdM": 4.2,
+      "glacialLake": { "available": true, "status": "elevated" }
+    }
+  },
+  "extreme_heat": {
+    "normal": {
+      "temperatureC": 32,
+      "humidityPct": 45,
+      "heatIndexC": 33,
+      "elevatedTempDurationHours": 2
+    },
+    "extreme_heat": {
+      "temperatureC": 46,
+      "humidityPct": 62,
+      "heatIndexC": 52,
+      "elevatedTempDurationHours": 18
+    }
+  }
+}

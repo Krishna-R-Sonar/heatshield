@@ -1,0 +1,85 @@
+{
+  "dataProvenance": "DEMO",
+  "locations": [
+    {
+      "id": "sikkim",
+      "name": "Sikkim",
+      "state": "Sikkim",
+      "lat": 27.533,
+      "lng": 88.512,
+      "primaryScenario": "flood_glof",
+      "populationExposureIndex": 0.72,
+      "infrastructureExposureIndex": 0.65
+    },
+    {
+      "id": "uttarakhand",
+      "name": "Uttarakhand",
+      "state": "Uttarakhand",
+      "lat": 30.066,
+      "lng": 79.019,
+      "primaryScenario": "flood_glof",
+      "populationExposureIndex": 0.68,
+      "infrastructureExposureIndex": 0.58
+    },
+    {
+      "id": "himachal",
+      "name": "Himachal Pradesh",
+      "state": "Himachal Pradesh",
+      "lat": 31.104,
+      "lng": 77.173,
+      "primaryScenario": "flood_glof",
+      "populationExposureIndex": 0.55,
+      "infrastructureExposureIndex": 0.52
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "state": "Assam",
+      "lat": 26.200,
+      "lng": 92.937,
+      "primaryScenario": "flood_glof",
+      "populationExposureIndex": 0.78,
+      "infrastructureExposureIndex": 0.6
+    },
+    {
+      "id": "bengaluru",
+      "name": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.971,
+      "lng": 77.594,
+      "primaryScenario": "extreme_heat",
+      "populationExposureIndex": 0.85,
+      "infrastructureExposureIndex": 0.7
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "state": "Delhi",
+      "lat": 28.704,
+      "lng": 77.102,
+      "primaryScenario": "extreme_heat",
+      "populationExposureIndex": 0.92,
+      "infrastructureExposureIndex": 0.75
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.076,
+      "lng": 72.877,
+      "primaryScenario": "extreme_heat",
+      "populationExposureIndex": 0.88,
+      "infrastructureExposureIndex": 0.8
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.082,
+      "lng": 80.270,
+      "primaryScenario": "extreme_heat",
+      "populationExposureIndex": 0.82,
+      "infrastructureExposureIndex": 0.72
+    }
+  ]
+}

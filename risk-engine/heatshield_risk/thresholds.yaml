@@ -1,0 +1,35 @@
+risk_levels:
+  low_max: 24
+  moderate_max: 49
+  high_max: 74
+
+flood:
+  rainfall_intensity_mm_hr:
+    moderate: 15
+    high: 30
+    critical: 50
+  cumulative_rainfall_mm_24h:
+    moderate: 80
+    high: 150
+    critical: 250
+  river_ratio:
+    moderate: 0.85
+    high: 1.0
+    critical: 1.15
+  historical_events_cap: 5
+  component_max: 25
+
+heat:
+  temperature_c:
+    moderate: 38
+    high: 42
+    critical: 45
+  heat_index_c:
+    moderate: 40
+    high: 45
+    critical: 51
+  duration_hours:
+    moderate: 6
+    high: 12
+    critical: 24
+  component_max: 25

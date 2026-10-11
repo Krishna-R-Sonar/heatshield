@@ -1,0 +1,8 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+httpx>=0.28.1
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+pyyaml>=6.0
+strands-agents>=1.58.1,<2.0.0
+openai>=1.68.0,<3.0.0
